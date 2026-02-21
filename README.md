@@ -1,32 +1,111 @@
-# Movie Management System with Reviews 🎬
+# 🎬 Movie Management System with Reviews
 
-A ReactJs + Spring Boot + MongoDB backend for managing movies.  
-This project exposes REST APIs for CRUD operations on movies.
+A Full Stack Movie Management Application built using **Spring Boot**, **MongoDB**, and **ReactJS**.
 
-## Features
-- Responsive UI
-- Get all movies
-- Get movie by ID
-- Add Reviews
-- MongoDB integration
+This application allows users to manage movies and reviews through REST APIs and an interactive frontend interface.
 
-## Tech Stack
-- ReactJs
-- Java Spring Boot
-- MongoDB
+---
+
+## 🧠 Project Overview
+
+This system provides:
+
+- CRUD operations for movies
+- Add & retrieve movie reviews
+- RESTful backend APIs
+- Responsive React frontend
+- MongoDB integration for NoSQL data storage
+
+The backend follows layered architecture:
+Controller → Service → Repository.
+
+---
+
+## 🛠 Tech Stack
+
+### 🔹 Backend
+- Java 17
+- Spring Boot
+- Spring Data MongoDB
 - Maven
+- REST APIs
 
-## API Endpoints
-- `GET /api/v1/movies` → Get all movies
-- `GET /api/v1/movies/{id}` → Get a movie by ID
-- `POST /api/v1/reviews` → Add reviews to movies
+### 🔹 Database
+- MongoDB
 
-## Run Locally
-1. Clone the repo
-   ```bash
-   https://github.com/ABHIRAM3046/Movie-Backend.git
-   ```
-2. Start MongoDB and Import the data from the following file
-   `Data/movies.json`
-3. Run the Spring Boot Application.
+### 🔹 Frontend
+- ReactJS
+- Bootstrap
+- Axios
 
+---
+
+## 📂 Project Structure
+
+```
+Movie-Management-Application/
+│
+├── src/
+├── Data/
+├── Frontend/movie-gold-v1/
+├── pom.xml
+├── mvnw
+├── mvnw.cmd
+├── README.md
+└── LICENSE
+```
+
+---
+
+## ▶️ Running the Project
+
+### Backend
+
+Run:
+
+```
+mvnw.cmd spring-boot:run
+```
+
+Backend runs on:
+
+```
+http://localhost:8080
+```
+
+### Frontend
+
+```
+cd Frontend/movie-gold-v1
+npm install
+npm start
+```
+
+Frontend runs on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🎯 Features
+
+- Responsive UI
+- RESTful architecture
+- MongoDB integration
+- Full CRUD support
+- Clean project structure
+
+---
+
+## 👨‍💻 Author
+
+**Luvneet Verma**  
+B.Tech CSE Cloud Computing
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
