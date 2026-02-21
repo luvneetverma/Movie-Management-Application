@@ -1,0 +1,9 @@
+com\spring_mongodb\Movies\ReviewService.class
+com\spring_mongodb\Movies\MovieService.class
+com\spring_mongodb\Movies\Review.class
+com\spring_mongodb\Movies\MoviesApplication.class
+com\spring_mongodb\Movies\Movie.class
+com\spring_mongodb\Movies\ReviewRepository.class
+com\spring_mongodb\Movies\MovieController.class
+com\spring_mongodb\Movies\ReviewController.class
+com\spring_mongodb\Movies\MovieRepository.class
